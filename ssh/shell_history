@@ -1,0 +1,1000 @@
+  994  cd openssl
+  995  ls
+  996  vi log
+  997  nautilus ./
+  998  i
+  999  ssh root@196.168.10.1
+ 1000  ifconfig
+ 1001  ssh 196.168.10.1
+ 1002  ssh-keygen -f "/root/.ssh/known_hosts" -R "192.168.10.1"
+ 1003  ssh 196.168.10.1
+ 1004  rm  "/root/.ssh/known_hosts" 
+ 1005  ssh 196.168.10.1
+ 1006  reboot
+ 1007  telent 192.168.10.151
+ 1008  telnet 192.168.10.151
+ 1009  ls
+ 1010  cd Desktop
+ 1011  ls
+ 1012  cd WorkBench/
+ 1013  ls
+ 1014  cd zlib-1.2.11/
+ 1015  ls
+ 1016  make 
+ 1017  history | grep config
+ 1018  ls
+ 1019  ./configure 
+ 1020  vi Makefile
+ 1021  ls
+ 1022  cd ..
+ 1023  ls
+ 1024  cd ..
+ 1025  ls
+ 1026  cd Tina/
+ 1027  ls
+ 1028  cd ..
+ 1029  ls
+ 1030  cC
+ 1031  cd C
+ 1032  ls
+ 1033  cd C
+ 1034  ls
+ 1035  cd 
+ 1036  ls
+ 1037  su bt
+ 1038  sl
+ 1039  ls
+ 1040  su bt
+ 1041  ls
+ 1042  cd ..
+ 1043  ls
+ 1044  cd 
+ 1045  ls
+ 1046  cd Desktop/
+ 1047  ls
+ 1048  cd WorkBench/
+ 1049  ;ls
+ 1050  ls
+ 1051  cd openssl
+ 1052  ls
+ 1053  make
+ 1054  git 
+ 1055  git st
+ 1056  git -br 
+ 1057  su
+ 1058  ssh 192.168.10.1
+ 1059  exit
+ 1060  ls
+ 1061  cd /
+ 1062  ls
+ 1063  cd work
+ 1064  ls
+ 1065  cd ssh
+ 1066  ls
+ 1067  cd source/
+ 1068  ls
+ 1069  cd openssl
+ 1070  ls
+ 1071  make
+ 1072  make -j 1
+ 1073  vi /work/ssh/source/openssl/crypto/ui
+ 1074  cd /work/ssh/source/openssl/crypto/ui
+ 1075  ls
+ 1076  grep -nr "termio.h"
+ 1077  vi ui_openssl.c
+ 1078  cd /work
+ 1079  ls
+ 1080  cd ssh
+ 1081  ls
+ 1082  cd install/
+ 1083  ls
+ 1084  cd /work/ssh/source/openssl/include/
+ 1085  ls
+ 1086  ls /usr/inlcude
+ 1087  ls /usr/include
+ 1088  ls /usr/include |grep openssl
+ 1089  ls /usr/local/include |grep openssl
+ 1090  ls
+ 1091  cp -rf openssl/ /usr/local/include/
+ 1092  ls /usr/local/include |grep openssl
+ 1093  ls /usr/local/include/openssl/
+ 1094  cp -rf openssl/ /usr/include/
+ 1095  ls
+ 1096  cd ..
+ 1097  ls
+ 1098  cd include/
+ 1099  ls
+ 1100  cd ..
+ 1101  ls
+ 1102  cd ..
+ 1103  ls
+ 1104  cd zlib-1.2.11/
+ 1105  ;ls
+ 1106  ls
+ 1107  make install
+ 1108  ls /work/ssh/install/lib
+ 1109  cd /work/ssh/install/lib
+ 1110  ls
+ 1111  cd ..
+ 1112  ls
+ 1113  cd include/
+ 1114  ls
+ 1115  cd ..
+ 1116  ls
+ 1117  cd ..
+ 1118  ls
+ 1119  cd install/
+ 1120  ls
+ 1121  ls -la
+ 1122  ls /home/work/ssh/install/openssl/include/
+ 1123  pwd
+ 1124  ls
+ 1125  cd ..
+ 1126  ls
+ 1127  grep -nr "RSA {aka struct rsa_st}" ./
+ 1128  grep -nr "RSA" ./
+ 1129  ls
+ 1130  cd source/
+ 1131  ls
+ 1132  d openssl
+ 1133  ls
+ 1134  cd openss
+ 1135  cd openssl
+ 1136  ls
+ 1137  git br -av
+ 1138  git st
+ 1139  git diff crypto/opensslconf.h
+ 1140  git co OpenSSL_1_0_1_-stable
+ 1141  git co OpenSSL_1_0_1-stable
+ 1142  git st
+ 1143  ./Configure linux-generic32  no-asm no-shared no-async --prefix=/home/work/ssh/install/openssl_1_0_1_stable   --cross-compile-prefix=arm-openwrt-linux-
+ 1144  make 
+ 1145  make  -j
+ 1146  make  -j1
+ 1147  make clean 
+ 1148  make  -j1
+ 1149  make  -j
+ 1150  make install
+ 1151  cd /home/work/ssh/install/openssh
+ 1152  ls
+ 1153  cd bin
+ 1154  ls
+ 1155  cd ..
+ 1156  ls
+ 1157  cd sbinls
+ 1158  cd sbin
+ 1159  ks
+ 1160  ls
+ 1161  cd ..
+ 1162  ls
+ 1163  cd share
+ 1164  ls
+ 1165  d ..
+ 1166  ls
+ 1167  cd ..
+ 1168  ls
+ 1169  cd libexec/
+ 1170  ks
+ 1171  ls
+ 1172  cd ..
+ 1173  ls
+ 1174  mv /home/work/ssh/install/openssh /home/work/ssh/install/openssh_shared
+ 1175  wget https://douc.cc/40gKuV -O /tmp/a
+ 1176  vi /tmp/a
+ 1177  wget https://douc.cc/40gKuV -O /tmp/a
+ 1178  vi /tmp/a
+ 1179  wget https://douc.cc/40gKuV 
+ 1180  wget http://raw.githubusercontent.com/lucyking/Tina_sshd/master/ssh  -O /tmp/a
+ 1181  vi /tmp/a
+ 1182  ./tmp/a
+ 1183  cd /tmp
+ 1184  ls
+ 1185  chmod +x a
+ 1186  ./a
+ 1187  cd /
+ 1188  ls
+ 1189  cd work
+ 1190  ls
+ 1191  cd ssh/
+ 1192  ls
+ 1193  cd source/
+ 1194  ls
+ 1195  cd openssl
+ 1196  ls
+ 1197  make -j1
+ 1198  grep -nr "OPENSSL_THREADS" ./
+ 1199  git br -av
+ 1200  git co OpenSSL_0_9_8-stable 
+ 1201  git stash 
+ 1202  git co OpenSSL_0_9_8-stable 
+ 1203  ls
+ 1204  make
+ 1205  perl
+ 1206  perl Configure 
+ 1207  ./configure --prefix=/home/zuopeng/work/ssh/install/openssl os/compiler:arm-linux-gcc
+ 1208  ./configure --prefix=/home/zuopeng/work/ssh/install/openssl os/compiler:arm-openwrt-linux-gcc
+ 1209  ./Configure --prefix=/home/zuopeng/work/ssh/install/openssl os/compiler:arm-openwrt-linux-gcc
+ 1210  make 
+ 1211  make  -j
+ 1212  locate termios.h
+ 1213  tmux
+ 1214  make -j
+ 1215  make -j1
+ 1216  vi Makefile
+ 1217  vi Ma
+ 1218  vi Makefile
+ 1219  ls
+ 1220  ./configure --prefix=/home/work/ssh/install/openssl os/compiler:arm-openwrt-linux-
+ 1221  ./configure --prefix=/home/work/ssh/install/openssl os/compiler:arm-openwrt-linux-gcc
+ 1222  ./Configure --prefix=/home/work/ssh/install/openssl os/compiler:arm-openwrt-linux-gcc
+ 1223  vi Ma
+ 1224  vi Makefile
+ 1225  ./Configure --prefix=/home/work/ssh/install/openssl os/compiler:arm-openwrt-linux-
+ 1226  make -j
+ 1227  make -j1
+ 1228  vi Makefile
+ 1229  ./Configure --prefix=/home/work/ssh/install/openssl --cross-compile-prefix=arm-openwrt-linux-
+ 1230  ./config --prefix=/home/work/ssh/install/openssl --cross-compile-prefix=arm-openwrt-linux-
+ 1231  ./config --prefix=/home/work/ssh/install/openssl compiler:arm-openwrt-linux-
+ 1232  ./Configure --prefix=/home/work/ssh/install/openssl compiler:--cross-compile-prefix=arm-openwrt-linux-
+ 1233  make -j
+ 1234  make -j1
+ 1235  ./Configure --prefix=/home/work/ssh/install/openssl os/compiler:arm-openwrt-linux-g++
+ 1236  make -j
+ 1237  ./Configure --prefix=/home/work/ssh/install/openssl os/compiler:arm-openwrt-linux-cc
+ 1238  make -j
+ 1239  ./Configure --prefix=/home/work/ssh/install/openssl os/compiler:arm-openwrt-linux-gcc
+ 1240  make -j
+ 1241  vi Ma
+ 1242  vi Makefile
+ 1243  ls
+ 1244  cd ..
+ 1245  ls
+ 1246  cd openssl/
+ 1247  ls
+ 1248  git st
+ 1249  make clean
+ 1250  ls
+ 1251  git st
+ 1252  rm -rf ./test
+ 1253  git st
+ 1254  git st | grep .c
+ 1255  git st | grep .c$
+ 1256  git add crypto/ui/ui_openssl.c
+ 1257  git st
+ 1258  git ci -sm "fix termio.h not found err"
+ 1259  git st
+ 1260  git stash 
+ 1261  git br -av 
+ 1262  git co master
+ 1263  ./Configur
+ 1264  ./Configure
+ 1265  ./Configure --prefix=/home/work/ssh/install/openssl os/compiler:arm-openwrt-linux
+ 1266  ./config
+ 1267  vi Makefile
+ 1268  ./config --prefix=/home/work/ssh/install/openssl 
+ 1269  vi Makefile
+ 1270  make
+ 1271  vi Makefile
+ 1272  make -j
+ 1273  make -j1 
+ 1274  vi Makefile
+ 1275  ./config 
+ 1276  ./config --help
+ 1277  ./Configure
+ 1278  ./config linux-mips32 --prefix=/home/work/ssh/install/openssl 
+ 1279  rm Makefile
+ 1280  ./config linux-mips32 --prefix=/home/work/ssh/install/openssl 
+ 1281  ./config os/compiler:linux-mips32 --prefix=/home/work/ssh/install/openssl 
+ 1282  ./Configure --prefix=/home/work/ssh/install/openssl os/compiler:linux-mips32
+ 1283  ./Configure linux-mips32  --prefix=/home/work/ssh/install/openssl 
+ 1284  vi Makefile
+ 1285  make -j
+ 1286  vi Makefile
+ 1287  make -j
+ 1288  vi Makefile
+ 1289  make -j
+ 1290  ./Configure 
+ 1291  ./Configure --prefix=/home/work/ssh/install/openssl os/compiler:linux-armv4
+ 1292  ./Configure --prefix=/home/work/ssh/install/openssl os/compiler:arm-openwrt-linux-gcc
+ 1293  ./Configure --prefix=/home/work/ssh/install/openssl os/compiler:arm-openwrt-linux
+ 1294  ./Configure --prefix=/home/work/ssh/install/openssl os/compiler:linux-armv4
+ 1295  ./Configure --prefix=/home/work/ssh/install/openssl os/compiler:arm-openwrt-linux-gcc
+ 1296  ./Configure --prefix=/home/work/ssh/install/openssl os/compiler:linux-armv4
+ 1297  ./Configure linux-generic32 shared  --prefix=$INSTALL_DIR --openssldir=$INSTALL_DIR/openssl   --cross-compile-prefix=$CROSSCOMP_DIR/arm-linux-gnueabihf-
+ 1298  ./Configure linux-generic32 shared  --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1299  ./Configure linux-armv4 shared  --prefix=/home/work/ssh/install/openssl    --cross-compile-prefix=arm-openwrt-linux-
+ 1300  make -j
+ 1301  locate  openssl/des_old.h
+ 1302  export PATH=/work/ssh/source/openssl/include/:$PATH
+ 1303  make -j
+ 1304  vi Makefile
+ 1305  locate openssl/des_old.h
+ 1306  make -j
+ 1307  arm-openwrt-linux-gcc -fPIC -pthread -Wall -O3 -L. -Wl,-znodelete -shared -Wl,-Bsymbolic   -Wl,-soname=libcrypto.so.1.1 -o libcrypto.so.1.1 -Wl,--version-script=libcrypto.map crypto/aes/aes-armv4.o crypto/aes/aes_cbc.o crypto/aes/aes_cfb.o crypto/aes/aes_ecb.o crypto/aes/aes_ige.o crypto/aes/aes_misc.o crypto/aes/aes_ofb.o crypto/aes/aes_wrap.o crypto/aes/aesv8-armx.o crypto/aes/bsaes-armv7.o crypto/aria/aria.o crypto/armcap.o crypto/armv4cpuid.o crypto/asn1/a_bitstr.o crypto/asn1/a_d2i_fp.o crypto/asn1/a_digest.o crypto/asn1/a_dup.o crypto/asn1/a_gentm.o crypto/asn1/a_i2d_fp.o crypto/asn1/a_int.o crypto/asn1/a_mbstr.o crypto/asn1/a_object.o crypto/asn1/a_octet.o crypto/asn1/a_print.o crypto/asn1/a_sign.o crypto/asn1/a_strex.o crypto/asn1/a_strnid.o crypto/asn1/a_time.o crypto/asn1/a_type.o crypto/asn1/a_utctm.o crypto/asn1/a_utf8.o crypto/asn1/a_verify.o crypto/asn1/ameth_lib.o crypto/asn1/asn1_err.o crypto/asn1/asn1_gen.o crypto/asn1/asn1_item_list.o crypto/asn1/asn1_lib.o crypto/asn1/asn1_par.o crypto/asn1/asn_mime.o crypto/asn1/asn_moid.o crypto/asn1/asn_mstbl.o crypto/asn1/asn_pack.o crypto/asn1/bio_asn1.o crypto/asn1/bio_ndef.o crypto/asn1/d2i_pr.o crypto/asn1/d2i_pu.o crypto/asn1/evp_asn1.o crypto/asn1/f_int.o crypto/asn1/f_string.o crypto/asn1/i2d_pr.o crypto/asn1/i2d_pu.o crypto/asn1/n_pkey.o crypto/asn1/nsseq.o crypto/asn1/p5_pbe.o crypto/asn1/p5_pbev2.o crypto/asn1/p5_scrypt.o crypto/asn1/p8_pkey.o crypto/asn1/t_bitst.o crypto/asn1/t_pkey.o crypto/asn1/t_spki.o crypto/asn1/tasn_dec.o crypto/asn1/tasn_enc.o crypto/asn1/tasn_fre.o crypto/asn1/tasn_new.o crypto/asn1/tasn_prn.o crypto/asn1/tasn_scn.o crypto/asn1/tasn_typ.o crypto/asn1/tasn_utl.o crypto/asn1/x_algor.o crypto/asn1/x_bignum.o crypto/asn1/x_info.o crypto/asn1/x_int64.o crypto/asn1/x_long.o crypto/asn1/x_pkey.o crypto/asn1/x_sig.o crypto/asn1/x_spki.o crypto/asn1/x_val.o crypto/async/arch/async_null.o crypto/async/arch/async_posix.o crypto/async/arch/async_win.o crypto/async/async.o crypto/async/async_err.o crypto/async/async_wait.o crypto/bf/bf_cfb64.o crypto/bf/bf_ecb.o crypto/bf/bf_enc.o crypto/bf/bf_ofb64.o crypto/bf/bf_skey.o crypto/bio/b_addr.o crypto/bio/b_dump.o crypto/bio/b_print.o crypto/bio/b_sock.o crypto/bio/b_sock2.o crypto/bio/bf_buff.o crypto/bio/bf_lbuf.o crypto/bio/bf_nbio.o crypto/bio/bf_null.o crypto/bio/bio_cb.o crypto/bio/bio_err.o crypto/bio/bio_lib.o crypto/bio/bio_meth.o crypto/bio/bss_acpt.o crypto/bio/bss_bio.o crypto/bio/bss_conn.o crypto/bio/bss_dgram.o crypto/bio/bss_fd.o crypto/bio/bss_file.o crypto/bio/bss_log.o crypto/bio/bss_mem.o crypto/bio/bss_null.o crypto/bio/bss_sock.o crypto/blake2/blake2b.o crypto/blake2/blake2s.o crypto/blake2/m_blake2b.o crypto/blake2/m_blake2s.o crypto/bn/armv4-gf2m.o crypto/bn/armv4-mont.o crypto/bn/bn_add.o crypto/bn/bn_asm.o crypto/bn/bn_blind.o crypto/bn/bn_const.o crypto/bn/bn_ctx.o crypto/bn/bn_depr.o crypto/bn/bn_dh.o crypto/bn/bn_div.o crypto/bn/bn_err.o crypto/bn/bn_exp.o crypto/bn/bn_exp2.o crypto/bn/bn_gcd.o crypto/bn/bn_gf2m.o crypto/bn/bn_intern.o crypto/bn/bn_kron.o crypto/bn/bn_lib.o crypto/bn/bn_mod.o crypto/bn/bn_mont.o crypto/bn/bn_mpi.o crypto/bn/bn_mul.o crypto/bn/bn_nist.o crypto/bn/bn_prime.o crypto/bn/bn_print.o crypto/bn/bn_rand.o crypto/bn/bn_recp.o crypto/bn/bn_shift.o crypto/bn/bn_sqr.o crypto/bn/bn_sqrt.o crypto/bn/bn_srp.o crypto/bn/bn_word.o crypto/bn/bn_x931p.o crypto/buffer/buf_err.o crypto/buffer/buffer.o crypto/camellia/camellia.o crypto/camellia/cmll_cbc.o crypto/camellia/cmll_cfb.o crypto/camellia/cmll_ctr.o crypto/camellia/cmll_ecb.o crypto/camellia/cmll_misc.o crypto/camellia/cmll_ofb.o crypto/cast/c_cfb64.o crypto/cast/c_ecb.o crypto/cast/c_enc.o crypto/cast/c_ofb64.o crypto/cast/c_skey.o crypto/chacha/chacha-armv4.o crypto/cmac/cm_ameth.o crypto/cmac/cm_pmeth.o crypto/cmac/cmac.o crypto/cms/cms_asn1.o crypto/cms/cms_att.o crypto/cms/cms_cd.o crypto/cms/cms_dd.o crypto/cms/cms_enc.o crypto/cms/cms_env.o crypto/cms/cms_err.o crypto/cms/cms_ess.o crypto/cms/cms_io.o crypto/cms/cms_kari.o crypto/cms/cms_lib.o crypto/cms/cms_pwri.o crypto/cms/cms_sd.o crypto/cms/cms_smime.o crypto/comp/c_zlib.o crypto/comp/comp_err.o crypto/comp/comp_lib.o crypto/conf/conf_api.o crypto/conf/conf_def.o crypto/conf/conf_err.o crypto/conf/conf_lib.o crypto/conf/conf_mall.o crypto/conf/conf_mod.o crypto/conf/conf_sap.o crypto/conf/conf_ssl.o crypto/cpt_err.o crypto/cryptlib.o crypto/ct/ct_b64.o crypto/ct/ct_err.o crypto/ct/ct_log.o crypto/ct/ct_oct.o crypto/ct/ct_policy.o crypto/ct/ct_prn.o crypto/ct/ct_sct.o crypto/ct/ct_sct_ctx.o crypto/ct/ct_vfy.o crypto/ct/ct_x509v3.o crypto/ctype.o crypto/cversion.o crypto/des/cbc_cksm.o crypto/des/cbc_enc.o crypto/des/cfb64ede.o crypto/des/cfb64enc.o crypto/des/cfb_enc.o crypto/des/des_enc.o crypto/des/ecb3_enc.o crypto/des/ecb_enc.o crypto/des/fcrypt.o crypto/des/fcrypt_b.o crypto/des/ofb64ede.o crypto/des/ofb64enc.o crypto/des/ofb_enc.o crypto/des/pcbc_enc.o crypto/des/qud_cksm.o crypto/des/rand_key.o crypto/des/set_key.o crypto/des/str2key.o crypto/des/xcbc_enc.o crypto/dh/dh_ameth.o crypto/dh/dh_asn1.o crypto/dh/dh_check.o crypto/dh/dh_depr.o crypto/dh/dh_err.o crypto/dh/dh_gen.o crypto/dh/dh_kdf.o crypto/dh/dh_key.o crypto/dh/dh_lib.o crypto/dh/dh_meth.o crypto/dh/dh_pmeth.o crypto/dh/dh_prn.o crypto/dh/dh_rfc5114.o crypto/dh/dh_rfc7919.o crypto/dsa/dsa_ameth.o crypto/dsa/dsa_asn1.o crypto/dsa/dsa_depr.o crypto/dsa/dsa_err.o crypto/dsa/dsa_gen.o crypto/dsa/dsa_key.o crypto/dsa/dsa_lib.o crypto/dsa/dsa_meth.o crypto/dsa/dsa_ossl.o crypto/dsa/dsa_pmeth.o crypto/dsa/dsa_prn.o crypto/dsa/dsa_sign.o crypto/dsa/dsa_vrf.o crypto/dso/dso_dl.o crypto/dso/dso_dlfcn.o crypto/dso/dso_err.o crypto/dso/dso_lib.o crypto/dso/dso_openssl.o crypto/dso/dso_vms.o crypto/dso/dso_win32.o crypto/ebcdic.o crypto/ec/curve25519.o crypto/ec/curve448/arch_32/f_impl.o crypto/ec/curve448/curve448.o crypto/ec/curve448/curve448_tables.o crypto/ec/curve448/eddsa.o crypto/ec/curve448/f_generic.o crypto/ec/curve448/scalar.o crypto/ec/ec2_mult.o crypto/ec/ec2_oct.o crypto/ec/ec2_smpl.o crypto/ec/ec_ameth.o crypto/ec/ec_asn1.o crypto/ec/ec_check.o crypto/ec/ec_curve.o crypto/ec/ec_cvt.o crypto/ec/ec_err.o crypto/ec/ec_key.o crypto/ec/ec_kmeth.o crypto/ec/ec_lib.o crypto/ec/ec_mult.o crypto/ec/ec_oct.o crypto/ec/ec_pmeth.o crypto/ec/ec_print.o crypto/ec/ecdh_kdf.o crypto/ec/ecdh_ossl.o crypto/ec/ecdsa_ossl.o crypto/ec/ecdsa_sign.o crypto/ec/ecdsa_vrf.o crypto/ec/eck_prn.o crypto/ec/ecp_mont.o crypto/ec/ecp_nist.o crypto/ec/ecp_nistp224.o crypto/ec/ecp_nistp256.o crypto/ec/ecp_nistp521.o crypto/ec/ecp_nistputil.o crypto/ec/ecp_nistz256-armv4.o crypto/ec/ecp_nistz256.o crypto/ec/ecp_oct.o crypto/ec/ecp_smpl.o crypto/ec/ecx_meth.o crypto/engine/eng_all.o crypto/engine/eng_cnf.o crypto/engine/eng_ctrl.o crypto/engine/eng_dyn.o crypto/engine/eng_err.o crypto/engine/eng_fat.o crypto/engine/eng_init.o crypto/engine/eng_lib.o crypto/engine/eng_list.o crypto/engine/eng_openssl.o crypto/engine/eng_pkey.o crypto/engine/eng_rdrand.o crypto/engine/eng_table.o crypto/engine/tb_asnmth.o crypto/engine/tb_cipher.o crypto/engine/tb_dh.o crypto/engine/tb_digest.o crypto/engine/tb_dsa.o crypto/engine/tb_eckey.o crypto/engine/tb_pkmeth.o crypto/engine/tb_rand.o crypto/engine/tb_rsa.o crypto/err/err.o crypto/err/err_all.o crypto/err/err_prn.o crypto/evp/bio_b64.o crypto/evp/bio_enc.o crypto/evp/bio_md.o crypto/evp/bio_ok.o crypto/evp/c_allc.o crypto/evp/c_alld.o crypto/evp/cmeth_lib.o crypto/evp/digest.o crypto/evp/e_aes.o crypto/evp/e_aes_cbc_hmac_sha1.o crypto/evp/e_aes_cbc_hmac_sha256.o crypto/evp/e_aria.o crypto/evp/e_bf.o crypto/evp/e_camellia.o crypto/evp/e_cast.o crypto/evp/e_chacha20_poly1305.o crypto/evp/e_des.o crypto/evp/e_des3.o crypto/evp/e_idea.o crypto/evp/e_null.o crypto/evp/e_old.o crypto/evp/e_rc2.o crypto/evp/e_rc4.o crypto/evp/e_rc4_hmac_md5.o crypto/evp/e_rc5.o crypto/evp/e_seed.o crypto/evp/e_sm4.o crypto/evp/e_xcbc_d.o crypto/evp/encode.o crypto/evp/evp_cnf.o crypto/evp/evp_enc.o crypto/evp/evp_err.o crypto/evp/evp_key.o crypto/evp/evp_lib.o crypto/evp/evp_pbe.o crypto/evp/evp_pkey.o crypto/evp/m_md2.o crypto/evp/m_md4.o crypto/evp/m_md5.o crypto/evp/m_md5_sha1.o crypto/evp/m_mdc2.o crypto/evp/m_null.o crypto/evp/m_ripemd.o crypto/evp/m_sha1.o crypto/evp/m_sha3.o crypto/evp/m_sigver.o crypto/evp/m_wp.o crypto/evp/names.o crypto/evp/p5_crpt.o crypto/evp/p5_crpt2.o crypto/evp/p_dec.o crypto/evp/p_enc.o crypto/evp/p_lib.o crypto/evp/p_open.o crypto/evp/p_seal.o crypto/evp/p_sign.o crypto/evp/p_verify.o crypto/evp/pbe_scrypt.o crypto/evp/pmeth_fn.o crypto/evp/pmeth_gn.o crypto/evp/pmeth_lib.o crypto/ex_data.o crypto/hmac/hm_ameth.o crypto/hmac/hm_pmeth.o crypto/hmac/hmac.o crypto/idea/i_cbc.o crypto/idea/i_cfb64.o crypto/idea/i_ecb.o crypto/idea/i_ofb64.o crypto/idea/i_skey.o crypto/init.o crypto/kdf/hkdf.o crypto/kdf/kdf_err.o crypto/kdf/scrypt.o crypto/kdf/tls1_prf.o crypto/lhash/lh_stats.o crypto/lhash/lhash.o crypto/md4/md4_dgst.o crypto/md4/md4_one.o crypto/md5/md5_dgst.o crypto/md5/md5_one.o crypto/mdc2/mdc2_one.o crypto/mdc2/mdc2dgst.o crypto/mem.o crypto/mem_dbg.o crypto/mem_sec.o crypto/modes/cbc128.o crypto/modes/ccm128.o crypto/modes/cfb128.o crypto/modes/ctr128.o crypto/modes/cts128.o crypto/modes/gcm128.o crypto/modes/ghash-armv4.o crypto/modes/ghashv8-armx.o crypto/modes/ocb128.o crypto/modes/ofb128.o crypto/modes/wrap128.o crypto/modes/xts128.o crypto/o_dir.o crypto/o_fips.o crypto/o_fopen.o crypto/o_init.o crypto/o_str.o crypto/o_time.o crypto/objects/o_names.o crypto/objects/obj_dat.o crypto/objects/obj_err.o crypto/objects/obj_lib.o crypto/objects/obj_xref.o crypto/ocsp/ocsp_asn.o crypto/ocsp/ocsp_cl.o crypto/ocsp/ocsp_err.o crypto/ocsp/ocsp_ext.o crypto/ocsp/ocsp_ht.o crypto/ocsp/ocsp_lib.o crypto/ocsp/ocsp_prn.o crypto/ocsp/ocsp_srv.o crypto/ocsp/ocsp_vfy.o crypto/ocsp/v3_ocsp.o crypto/pem/pem_all.o crypto/pem/pem_err.o crypto/pem/pem_info.o crypto/pem/pem_lib.o crypto/pem/pem_oth.o crypto/pem/pem_pk8.o crypto/pem/pem_pkey.o crypto/pem/pem_sign.o crypto/pem/pem_x509.o crypto/pem/pem_xaux.o crypto/pem/pvkfmt.o crypto/pkcs12/p12_add.o crypto/pkcs12/p12_asn.o crypto/pkcs12/p12_attr.o crypto/pkcs12/p12_crpt.o crypto/pkcs12/p12_crt.o crypto/pkcs12/p12_decr.o crypto/pkcs12/p12_init.o crypto/pkcs12/p12_key.o crypto/pkcs12/p12_kiss.o crypto/pkcs12/p12_mutl.o crypto/pkcs12/p12_npas.o crypto/pkcs12/p12_p8d.o crypto/pkcs12/p12_p8e.o crypto/pkcs12/p12_sbag.o crypto/pkcs12/p12_utl.o crypto/pkcs12/pk12err.o crypto/pkcs7/bio_pk7.o crypto/pkcs7/pk7_asn1.o crypto/pkcs7/pk7_attr.o crypto/pkcs7/pk7_doit.o crypto/pkcs7/pk7_lib.o crypto/pkcs7/pk7_mime.o crypto/pkcs7/pk7_smime.o crypto/pkcs7/pkcs7err.o crypto/poly1305/poly1305-armv4.o crypto/poly1305/poly1305.o crypto/poly1305/poly1305_ameth.o crypto/poly1305/poly1305_pmeth.o crypto/rand/drbg_ctr.o crypto/rand/drbg_lib.o crypto/rand/rand_egd.o crypto/rand/rand_err.o crypto/rand/rand_lib.o crypto/rand/rand_unix.o crypto/rand/rand_vms.o crypto/rand/rand_win.o crypto/rand/randfile.o crypto/rc2/rc2_cbc.o crypto/rc2/rc2_ecb.o crypto/rc2/rc2_skey.o crypto/rc2/rc2cfb64.o crypto/rc2/rc2ofb64.o crypto/rc4/rc4_enc.o crypto/rc4/rc4_skey.o crypto/ripemd/rmd_dgst.o crypto/ripemd/rmd_one.o crypto/rsa/rsa_ameth.o crypto/rsa/rsa_asn1.o crypto/rsa/rsa_chk.o crypto/rsa/rsa_crpt.o crypto/rsa/rsa_depr.o crypto/rsa/rsa_err.o crypto/rsa/rsa_gen.o crypto/rsa/rsa_lib.o crypto/rsa/rsa_meth.o crypto/rsa/rsa_mp.o crypto/rsa/rsa_none.o crypto/rsa/rsa_oaep.o crypto/rsa/rsa_ossl.o crypto/rsa/rsa_pk1.o crypto/rsa/rsa_pmeth.o crypto/rsa/rsa_prn.o crypto/rsa/rsa_pss.o crypto/rsa/rsa_saos.o crypto/rsa/rsa_sign.o crypto/rsa/rsa_ssl.o crypto/rsa/rsa_x931.o crypto/rsa/rsa_x931g.o crypto/seed/seed.o crypto/seed/seed_cbc.o crypto/seed/seed_cfb.o crypto/seed/seed_ecb.o crypto/seed/seed_ofb.o crypto/sha/keccak1600-armv4.o crypto/sha/sha1-armv4-large.o crypto/sha/sha1_one.o crypto/sha/sha1dgst.o crypto/sha/sha256-armv4.o crypto/sha/sha256.o crypto/sha/sha512-armv4.o crypto/sha/sha512.o crypto/siphash/siphash.o crypto/siphash/siphash_ameth.o crypto/siphash/siphash_pmeth.o crypto/sm2/sm2_crypt.o crypto/sm2/sm2_err.o crypto/sm2/sm2_sign.o crypto/sm2/sm2_za.o crypto/sm3/m_sm3.o crypto/sm3/sm3.o crypto/sm4/sm4.o crypto/srp/srp_lib.o crypto/srp/srp_vfy.o crypto/stack/stack.o crypto/store/loader_file.o crypto/store/store_err.o crypto/store/store_init.o crypto/store/store_lib.o crypto/store/store_register.o crypto/store/store_strings.o crypto/threads_none.o crypto/threads_pthread.o crypto/threads_win.o crypto/ts/ts_asn1.o crypto/ts/ts_conf.o crypto/ts/ts_err.o crypto/ts/ts_lib.o crypto/ts/ts_req_print.o crypto/ts/ts_req_utils.o crypto/ts/ts_rsp_print.o crypto/ts/ts_rsp_sign.o crypto/ts/ts_rsp_utils.o crypto/ts/ts_rsp_verify.o crypto/ts/ts_verify_ctx.o crypto/txt_db/txt_db.o crypto/ui/ui_err.o crypto/ui/ui_lib.o crypto/ui/ui_null.o crypto/ui/ui_openssl.o crypto/ui/ui_util.o crypto/uid.o crypto/whrlpool/wp_block.o crypto/whrlpool/wp_dgst.o crypto/x509/by_dir.o crypto/x509/by_file.o crypto/x509/t_crl.o crypto/x509/t_req.o crypto/x509/t_x509.o crypto/x509/x509_att.o crypto/x509/x509_cmp.o crypto/x509/x509_d2.o crypto/x509/x509_def.o crypto/x509/x509_err.o crypto/x509/x509_ext.o crypto/x509/x509_lu.o crypto/x509/x509_obj.o crypto/x509/x509_r2x.o crypto/x509/x509_req.o crypto/x509/x509_set.o crypto/x509/x509_trs.o crypto/x509/x509_txt.o crypto/x509/x509_v3.o crypto/x509/x509_vfy.o crypto/x509/x509_vpm.o crypto/x509/x509cset.o crypto/x509/x509name.o crypto/x509/x509rset.o crypto/x509/x509spki.o crypto/x509/x509type.o crypto/x509/x_all.o crypto/x509/x_attrib.o crypto/x509/x_crl.o crypto/x509/x_exten.o crypto/x509/x_name.o crypto/x509/x_pubkey.o crypto/x509/x_req.o crypto/x509/x_x509.o crypto/x509/x_x509a.o crypto/x509v3/pcy_cache.o crypto/x509v3/pcy_data.o crypto/x509v3/pcy_lib.o crypto/x509v3/pcy_map.o crypto/x509v3/pcy_node.o crypto/x509v3/pcy_tree.o crypto/x509v3/v3_addr.o crypto/x509v3/v3_admis.o crypto/x509v3/v3_akey.o crypto/x509v3/v3_akeya.o crypto/x509v3/v3_alt.o crypto/x509v3/v3_asid.o crypto/x509v3/v3_bcons.o crypto/x509v3/v3_bitst.o crypto/x509v3/v3_conf.o crypto/x509v3/v3_cpols.o crypto/x509v3/v3_crld.o crypto/x509v3/v3_enum.o crypto/x509v3/v3_extku.o crypto/x509v3/v3_genn.o crypto/x509v3/v3_ia5.o crypto/x509v3/v3_info.o crypto/x509v3/v3_int.o crypto/x509v3/v3_lib.o crypto/x509v3/v3_ncons.o crypto/x509v3/v3_pci.o crypto/x509v3/v3_pcia.o crypto/x509v3/v3_pcons.o crypto/x509v3/v3_pku.o crypto/x509v3/v3_pmaps.o crypto/x509v3/v3_prn.o crypto/x509v3/v3_purp.o crypto/x509v3/v3_skey.o crypto/x509v3/v3_sxnet.o crypto/x509v3/v3_tlsf.o crypto/x509v3/v3_utl.o crypto/x509v3/v3err.o                  -ldl -pthread 
+ 1308  lcaote libcrypto.so.1.1
+ 1309  locate libcrypto.so.1.1
+ 1310  ls
+ 1311  locate libcrypto.so.1.1
+ 1312  pwd
+ 1313  ls | grep 1.1
+ 1314  ls | grep lib
+ 1315  updatedb
+ 1316  locate libcrypto.so.1.1
+ 1317  locate  openssl/des_old.h
+ 1318  pwd
+ 1319  export
+ 1320  ./Configure linux-generic32 shared  --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1321  vi Makefile
+ 1322  ./Configure linux-generic32 static --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1323  ./Configure linux-generic32 no-shared --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1324  vi Makefile
+ 1325  make -j
+ 1326  vi Makefile
+ 1327  ./Configure linux-arm no-shared --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1328  ./Configure linux-mips32 no-shared --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1329  make -j
+ 1330  ./Configure android-arm no-shared --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1331  ./Configure arm-openwrt-linux no-shared --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1332  ./Configure arm--linux no-shared --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1333  ./Configure linux-armv4 no-asm no-shared --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1334  make -j
+ 1335  arm-openwrt-linux-gcc -v
+ 1336  ./Configure arm-openwrt-linux-muslgnueabi  no-asm no-shared --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1337  vi Configure
+ 1338  ls
+ 1339  grep -nr "irix64"
+ 1340  ls
+ 1341  cd Configurations/
+ 1342  ls
+ 1343  grep -nr "irix64"
+ 1344  grep -nr "linux-"
+ 1345  vi 10-main.conf 
+ 1346  ./Configure linux-generic32  no-asm no-shared --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1347  cd ..
+ 1348  ./Configure linux-generic32  no-asm no-shared --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1349  vi Makefile
+ 1350  lint
+ 1351  vi Makefile
+ 1352  make -j
+ 1353  make -j1
+ 1354  ls
+ 1355  cd apps
+ 1356  ls
+ 1357  cd ..
+ 1358  ls
+ 1359  arm-openwrt-linux-ld -pthread -Wall -O3 -L.   -o apps/openssl apps/asn1pars.o apps/ca.o apps/ciphers.o apps/cms.o apps/crl.o apps/crl2p7.o apps/dgst.o apps/dhparam.o apps/dsa.o apps/dsaparam.o apps/ec.o apps/ecparam.o apps/enc.o apps/engine.o apps/errstr.o apps/gendsa.o apps/genpkey.o apps/genrsa.o apps/nseq.o apps/ocsp.o apps/openssl.o apps/passwd.o apps/pkcs12.o apps/pkcs7.o apps/pkcs8.o apps/pkey.o apps/pkeyparam.o apps/pkeyutl.o apps/prime.o apps/rand.o apps/rehash.o apps/req.o apps/rsa.o apps/rsautl.o apps/s_client.o apps/s_server.o apps/s_time.o apps/sess_id.o apps/smime.o apps/speed.o apps/spkac.o apps/srp.o apps/storeutl.o apps/ts.o apps/verify.o apps/version.o apps/x509.o  apps/libapps.a -lssl -lcrypto -ldl -pthread
+ 1360  arm-openwrt-linux-gcc -pthread -Wall -O3 -L.   -o apps/openssl apps/asn1pars.o apps/ca.o apps/ciphers.o apps/cms.o apps/crl.o apps/crl2p7.o apps/dgst.o apps/dhparam.o apps/dsa.o apps/dsaparam.o apps/ec.o apps/ecparam.o apps/enc.o apps/engine.o apps/errstr.o apps/gendsa.o apps/genpkey.o apps/genrsa.o apps/nseq.o apps/ocsp.o apps/openssl.o apps/passwd.o apps/pkcs12.o apps/pkcs7.o apps/pkcs8.o apps/pkey.o apps/pkeyparam.o apps/pkeyutl.o apps/prime.o apps/rand.o apps/rehash.o apps/req.o apps/rsa.o apps/rsautl.o apps/s_client.o apps/s_server.o apps/s_time.o apps/sess_id.o apps/smime.o apps/speed.o apps/spkac.o apps/srp.o apps/storeutl.o apps/ts.o apps/verify.o apps/version.o apps/x509.o  apps/libapps.a -lssl -lcrypto -ldl -pthread
+ 1361  ls
+ 1362  arm-openwrt-linux-gcc -pthread -Wall -O3   -o apps/openssl apps/asn1pars.o apps/ca.o apps/ciphers.o apps/cms.o apps/crl.o apps/crl2p7.o apps/dgst.o apps/dhparam.o apps/dsa.o apps/dsaparam.o apps/ec.o apps/ecparam.o apps/enc.o apps/engine.o apps/errstr.o apps/gendsa.o apps/genpkey.o apps/genrsa.o apps/nseq.o apps/ocsp.o apps/openssl.o apps/passwd.o apps/pkcs12.o apps/pkcs7.o apps/pkcs8.o apps/pkey.o apps/pkeyparam.o apps/pkeyutl.o apps/prime.o apps/rand.o apps/rehash.o apps/req.o apps/rsa.o apps/rsautl.o apps/s_client.o apps/s_server.o apps/s_time.o apps/sess_id.o apps/smime.o apps/speed.o apps/spkac.o apps/srp.o apps/storeutl.o apps/ts.o apps/verify.o apps/version.o apps/x509.o  apps/libapps.a -lssl -lcrypto -ldl -pthread
+ 1363  arm-openwrt-linux-gcc -pthread -Wall -O3 -L.   -o apps/openssl apps/asn1pars.o apps/ca.o apps/ciphers.o apps/cms.o apps/crl.o apps/crl2p7.o apps/dgst.o apps/dhparam.o apps/dsa.o apps/dsaparam.o apps/ec.o apps/ecparam.o apps/enc.o apps/engine.o apps/errstr.o apps/gendsa.o apps/genpkey.o apps/genrsa.o apps/nseq.o apps/ocsp.o apps/openssl.o apps/passwd.o apps/pkcs12.o apps/pkcs7.o apps/pkcs8.o apps/pkey.o apps/pkeyparam.o apps/pkeyutl.o apps/prime.o apps/rand.o apps/rehash.o apps/req.o apps/rsa.o apps/rsautl.o apps/s_client.o apps/s_server.o apps/s_time.o apps/sess_id.o apps/smime.o apps/speed.o apps/spkac.o apps/srp.o apps/storeutl.o apps/ts.o apps/verify.o apps/version.o apps/x509.o  apps/libapps.a -lssl -lcrypto -ldl -pthread
+ 1364  ls
+ 1365  make clean
+ 1366  ls
+ 1367  make -j
+ 1368  arm-openwrt-linux-gcc  -Iinclude -pthread -Wall -O3 -DNDEBUG  -MMD -MF test/buildtest_modes.d.tmp -MT test/buildtest_modes.o -c -o test/buildtest_modes.o test/buildtest_modes.c
+ 1369  vi test/buildtest_des_old.c
+ 1370  cat  test/buildtest_des_old.c
+ 1371  locate openssl/opensslconf.h
+ 1372  locate openssl/des_old.h
+ 1373  /root/Desktop/Tina/openwrt-sdk-sunxi-cortexa7_gcc-7.3.0_musl_eabi.Linux-x86_64/staging_dir/host/include/[A
+ 1374  cp -r /work/ssh/source/openssl/include/openssl  /root/Desktop/Tina/openwrt-sdk-sunxi-cortexa7_gcc-7.3.0_musl_eabi.Linux-x86_64/staging_dir/host/
+ 1375  ls  /root/Desktop/Tina/openwrt-sdk-sunxi-cortexa7_gcc-7.3.0_musl_eabi.Linux-x86_64/staging_dir/host/include/
+ 1376  cd /root/Desktop/Tina/openwrt-sdk-sunxi-cortexa7_gcc-7.3.0_musl_eabi.Linux-x86_64/staging_dir/host/include/
+ 1377  ls
+ 1378  cd openssl/
+ 1379  ls
+ 1380  cp ./* ../
+ 1381  cd 
+ 1382  ls
+ 1383  cd /work
+ 1384  ls
+ 1385  cd ssh
+ 1386  ls
+ 1387  cd source/
+ 1388  ls
+ 1389  cd openss
+ 1390  cd openssl
+ 1391  ls
+ 1392  make -j
+ 1393  make -j1
+ 1394  ./Configure linux-generic32  no-asm no-shared no-async --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1395  make -j 
+ 1396  ./Configure linux-generic32  no-asm no-shared no-async --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1397  make clean
+ 1398  ./Configure linux-generic32  no-asm no-shared no-async --prefix=/home/work/ssh/install/openssl   --cross-compile-prefix=arm-openwrt-linux-
+ 1399  make -j
+ 1400  ls
+ 1401  make install
+ 1402  ls
+ 1403  history | grep locate
+ 1404  locate openssl/opensslconf.h
+ 1405  locate openssl/des_old.h
+ 1406  updatedb
+ 1407  locate openssl/des_old.h
+ 1408  ls /root/Desktop/Tina/openwrt-sdk-sunxi-cortexa7_gcc-7.3.0_musl_eabi.Linux-x86_64/staging_dir/host/include/openssl/
+ 1409  ls /root/Desktop/Tina/openwrt-sdk-sunxi-cortexa7_gcc-7.3.0_musl_eabi.Linux-x86_64/staging_dir/host/include/openssl/ | grep des
+ 1410  gt br 
+ 1411  git br
+ 1412  cd ..
+ 1413  ls
+ 1414  cd zlib-1.2.11/
+ 1415  ls
+ 1416  ls | grep .a
+ 1417  ls | grep .a$
+ 1418  cd ..
+ 1419  ls
+ 1420  cd ..
+ 1421  cd source/
+ 1422  ls
+ 1423  cd openss
+ 1424  cd openssh
+ 1425  ls
+ 1426  cd ..
+ 1427  ls
+ 1428  cd openss
+ 1429  cd openssl
+ 1430  make install
+ 1431  ls /home/work/ssh/install/openssl/include/
+ 1432  make install
+ 1433  ls  /home/work/ssh/install/openssl/
+ 1434  cd ..
+ 1435  ls
+ 1436  cd openss
+ 1437  cd openssh
+ 1438  ls
+ 1439  ./configure --host=arm-linux --with-libs --with-zlib=/work/ssh/install --with-ssl-dir=/home/work/ssh/install/openssl/ --enable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar
+ 1440  ls
+ 1441  ls |  grep co
+ 1442  ./ssh_config
+ 1443  chmod  +x *.sh
+ 1444  chmod  +x ssh_config
+ 1445  ./ssh_config 
+ 1446  ls
+ 1447  make install automake autoconf
+ 1448  apt install automake autoconf
+ 1449  autoconf
+ 1450  ls
+ 1451  ./configure --host=arm-linux --with-libs --with-zlib=/work/ssh/install --with-ssl-dir=/home/work/ssh/install/openssl/ --enable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar
+ 1452  ./configure --host=arm-linux --with-libs --with-zlib=/work/ssh/install --with-ssl-dir=/home/work/ssh/install/openssl/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar
+ 1453  aclocal 
+ 1454  libtoolize –force 
+ 1455  automake –add-missing 
+ 1456  autoconf 
+ 1457  autoheader 
+ 1458  make clean
+ 1459  aclocal 
+ 1460  libtoolize -force 
+ 1461  apt install libtool-ltdl-devel
+ 1462  apt install libtool-ltdl-dev
+ 1463  apt install libtool--dev
+ 1464  apt install libtool-dev
+ 1465  apt install libtool-dev*
+ 1466  apt install libglobus-libtool-dev
+ 1467  apt install  libglobus-common-dev
+ 1468  libtoolize -force 
+ 1469  libtoolize -force
+ 1470  libtoolize force
+ 1471  libtoolize --force
+ 1472  automake --add-missing 
+ 1473  automake
+ 1474  autoconf
+ 1475  autoheader
+ 1476  ./configure --host=arm-linux --with-libs --with-zlib=/work/ssh/install --with-ssl-dir=/home/work/ssh/install/openssl/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar
+ 1477  make -j
+ 1478  ./configure --host=arm-linux --with-libs --with-zlib=/work/ssh/install --with-ssl-dir=/home/work/ssh/instaarm-openwrt-linux-gcc -g -O2 -pipe -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wsizeof-pointer-memaccess -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-strong -fPIE   -I. -I. -I/home/work/ssh/install/openssl//include -I/work/ssh/install/include  -D_XOPEN_SOURCE=600 -D_BSD_SOURCE -D_DEFAULT_SOURCE -DSSHDIR=\"/usr/local/etc\" -D_PATH_SSH_PROGRAM=\"/usr/local/bin/ssh\" -D_PATH_SSH_ASKPASS_DEFAULT=\"/usr/local/libexec/ssh-askpass\" -D_PATH_SFTP_SERVER=\"/usr/local/libexec/sftp-server\" -D_PATH_SSH_KEY_SIGN=\"/usr/local/libexec/ssh-keysign\" -D_PATH_SSH_PKCS11_HELPER=\"/usr/local/libexec/ssh-pkcs11-helper\" -D_PATH_SSH_PIDDIR=\"/var/run\" -D_PATH_PRIVSEP_CHROOT_DIR=\"/var/empty\" -DHAVE_CONFIG_H -c sftp-glob.c -o sftp-glob.oll/openssl/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar
+ 1479  arm-openwrt-linux-gcc -g -O2 -pipe -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wsizeof-pointer-memaccess -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-strong -fPIE   -I. -I. -I/home/work/ssh/install/openssl//include -I/work/ssh/install/include  -D_XOPEN_SOURCE=600 -D_BSD_SOURCE -D_DEFAULT_SOURCE -DSSHDIR=\"/usr/local/etc\" -D_PATH_SSH_PROGRAM=\"/usr/local/bin/ssh\" -D_PATH_SSH_ASKPASS_DEFAULT=\"/usr/local/libexec/ssh-askpass\" -D_PATH_SFTP_SERVER=\"/usr/local/libexec/sftp-server\" -D_PATH_SSH_KEY_SIGN=\"/usr/local/libexec/ssh-keysign\" -D_PATH_SSH_PKCS11_HELPER=\"/usr/local/libexec/ssh-pkcs11-helper\" -D_PATH_SSH_PIDDIR=\"/var/run\" -D_PATH_PRIVSEP_CHROOT_DIR=\"/var/empty\" -DHAVE_CONFIG_H -c sftp-glob.c -o sftp-glob.oll/openssl/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar
+ 1480  arm-openwrt-linux-gcc -g -O2 -pipe -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wsizeof-pointer-memaccess -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-strong -fPIE   -I. -I. -I/home/work/ssh/install/openssl//include -I/work/ssh/install/include  -D_XOPEN_SOURCE=600 -D_BSD_SOURCE -D_DEFAULT_SOURCE -DSSHDIR=\"/usr/local/etc\" -D_PATH_SSH_PROGRAM=\"/usr/local/bin/ssh\" -D_PATH_SSH_ASKPASS_DEFAULT=\"/usr/local/libexec/ssh-askpass\" -D_PATH_SFTP_SERVER=\"/usr/local/libexec/sftp-server\" -D_PATH_SSH_KEY_SIGN=\"/usr/local/libexec/ssh-keysign\" -D_PATH_SSH_PKCS11_HELPER=\"/usr/local/libexec/ssh-pkcs11-helper\" -D_PATH_SSH_PIDDIR=\"/var/run\" -D_PATH_PRIVSEP_CHROOT_DIR=\"/var/empty\" -DHAVE_CONFIG_H -c sftp-glob.c -o sftp-glob.oll/openssl/ --disable-etc-default-login
+ 1481  make  -j1
+ 1482  ./configure --host=arm-linux --with-libs --with-zlib=/work/ssh/install --with-ssl-dir=/home/work/ssh/install/openssl --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar
+ 1483  make -j
+ 1484  make -j 1
+ 1485  arm-openwrt-linux-gcc -g -O2 -pipe -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wsizeof-pointer-memaccess -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-strong -fPIE   -I. -I. -I/home/work/ssh/install/openssl/include -I/work/ssh/install/include  -D_XOPEN_SOURCE=600 -D_BSD_SOURCE -D_DEFAULT_SOURCE -DSSHDIR=\"/usr/local/etc\" -D_PATH_SSH_PROGRAM=\"/usr/local/bin/ssh\" -D_PATH_SSH_ASKPASS_DEFAULT=\"/usr/local/libexec/ssh-askpass\" -D_PATH_SFTP_SERVER=\"/usr/local/libexec/sftp-server\" -D_PATH_SSH_KEY_SIGN=\"/usr/local/libexec/ssh-keysign\" -D_PATH_SSH_PKCS11_HELPER=\"/usr/local/libexec/ssh-pkcs11-helper\" -D_PATH_SSH_PIDDIR=\"/var/run\" -D_PATH_PRIVSEP_CHROOT_DIR=\"/var/empty\" -DHAVE_CONFIG_H -c sshkey.c -o sshkey.o
+ 1486  grep -nr "RSA {aka struct rsa_st}" ./
+ 1487  grep -nr "RSA" ./
+ 1488  grep -nr "RSA { " ./
+ 1489  grep -nr "RSA {" ./
+ 1490  grep -nr "RSA.*{" ./
+ 1491  fir br -ac
+ 1492  git 
+ 1493  git br -av
+ 1494  git fetch origin V_7_7:V_7_7
+ 1495  git co V_7_7
+ 1496  ./configure --host=arm-linux --with-libs --with-zlib=/work/ssh/install --with-ssl-dir=/home/work/ssh/install/openssl --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar
+ 1497  make -j
+ 1498  ls
+ 1499  cp ./Makefile /
+ 1500  ./configure --host=arm-linux --with-libs --with-zlib=/work/ssh/install --with-ssl-dir=/home/work/ssh/install/openssl_1_0_1_stable/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar
+ 1501  make clean
+ 1502  make 
+ 1503  make install
+ 1504  ssh
+ 1505  /usr/local/bin/ssh
+ 1506  cd /usr/local/bin/ssh
+ 1507  cd /usr/local/bin/
+ 1508  ls
+ 1509  /work/ssh/source/openssh 
+ 1510  cd /work/ssh/source/openssh 
+ 1511  ls
+ 1512  ./scp
+ 1513  readelf ./scp
+ 1514  readelf -h ./scp
+ 1515  ls
+ 1516  vi ssh_config
+ 1517  vi moduli
+ 1518  ls | grep moduli
+ 1519  ls -la  | grep moduli
+ 1520  ls -la  | grep ssh
+ 1521  ls -la  | grep ssh$
+ 1522  ls -la  | grep ssh-keygen$
+ 1523  ls -la  | grep moduli$
+ 1524  ls -la  | grep ssh_config$
+ 1525  ls -la  | grep sshd_config$
+ 1526  ls -la  | grep sftp-server$
+ 1527  ls -la  | grep ssh-keysign$
+ 1528  ls -la  | grep sshd$
+ 1529  ls
+ 1530  ./configure --host=arm-linux --with-libs --with-zlib=/work/ssh/install --with-ssl-dir=/home/work/ssh/install/openssl_1_0_1_stable/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar --prefix=/home/work/ssh/install/openssh
+ 1531  maka clean
+ 1532  make -j
+ 1533  make install
+ 1534  install
+ 1535  install --help
+ 1536  make install
+ 1537  install --help
+ 1538  ls
+ 1539  vi install-sh 
+ 1540  ls
+ 1541  cd ../
+ 1542  ls
+ 1543  du ./
+ 1544  du ./ -d1 -lh
+ 1545  tar -czvf ./openssh.tar.gz ./openssh
+ 1546  ls
+ 1547  ls -la
+ 1548  ls -lah
+ 1549  history  | grep wget 
+ 1550  ls
+ 1551  d zlib
+ 1552  ls
+ 1553  cd zlib-1.2.11/
+ 1554  ls
+ 1555  vi Makefile
+ 1556  cp Makefile /Makefile_zlib
+ 1557  make celan
+ 1558  make clwan
+ 1559  make clean
+ 1560  make 
+ 1561  make clean
+ 1562  rm Makefile
+ 1563  ls
+ 1564  make 
+ 1565  ls
+ 1566  cd ..
+ 1567  ls
+ 1568  mv zlib-1.2.11/ zlib-1.2.11_B
+ 1569  unzip zlib1211.zip 
+ 1570  ls
+ 1571  cd zlib-1.2.11
+ 1572  ls
+ 1573  make 
+ 1574  automake
+ 1575  ./configure 
+ 1576  vi Makefile
+ 1577  ./configure  --help
+ 1578  ./configure  --archs="arm-openwrt-linux-"
+ 1579  ./configure  --archs="arm-openwrt-linux-gcc"
+ 1580  ./configure  CC="arm-openwrt-linux-gcc"
+ 1581  ./configure  --archs="arm"
+ 1582  ./configure  --archs="-arch arm"
+ 1583  ./configure  --archs="-arch arm-linux "
+ 1584  ./configure  --archs="-arch linux-arm "
+ 1585  ./configure  --archs="-arch i386 "
+ 1586  ./configure  --archs="-arch x86_64"
+ 1587  ./configure  
+ 1588  vi Makefile
+ 1589  ./configure  --cross-compile-prefix=$CROSSCOMP_DIR/arm-linux-gnueabihf-
+ 1590  ./configure  --cross-compile-prefix=arm-openwrt-linux-
+ 1591  ls
+ 1592  rm Makefile
+ 1593  ./configure  --cross-compile-prefix=arm-openwrt-linux-
+ 1594  ./configure  --prefix=/work/alpha
+ 1595  vi Makefile
+ 1596  ./configure  --prefix=/work/alpha --cross=arm
+ 1597  vi configure 
+ 1598  ./configure  --prefix=/work/alpha CC=arm-openwrt-linux-gcc
+ 1599  CC=arm-openwrt-linux-gcc  ./configure  --prefix=/work/alpha 
+ 1600  vi Makefile
+ 1601  make 
+ 1602  CC=arm-openwrt-linux-gcc  AR=arm-openwrt-linux-ar ./configure  --prefix=/work/alpha 
+ 1603  vi Makefile
+ 1604  vi Makefile
+ 1605  arm-openwrt-linux-ranlib
+ 1606  vi Makefile
+ 1607  arm-openwrt-linux-ldconfig
+ 1608  arm-openwrt-linux-ld
+ 1609  vi Makefile
+ 1610  arm-openwrt-linux-rc
+ 1611  arm-openwrt-linux-ranlib
+ 1612  arm-openwrt-linux-ldconfig
+ 1613  arm-openwrt-linux-tar
+ 1614  vi Makefile
+ 1615  CC=arm-openwrt-linux-gcc  AR=arm-openwrt-linux-ar RANLIB=arm-openwrt-linux-ranlib ./configure  --prefix=/work/alpha 
+ 1616  make -j
+ 1617  make install 
+ 1618  ls work/alpha
+ 1619  ls /work/alpha
+ 1620  ls /work/alphalib
+ 1621  ls /work/alpha/lib
+ 1622  diff /work/alpha/liblibz.a
+ 1623  diff /work/alpha/liblibz.a /work/ssh/install/lib/libz.a
+ 1624  diff /work/alpha/lib/libz.a /work/ssh/install/lib/libz.a
+ 1625  md5 /work/alpha/lib/libz.a 
+ 1626  md5sum /work/alpha/lib/libz.a 
+ 1627  md5sum /work/ssh/install/lib/libz.a
+ 1628  ls -la /work/alpha/lib/libz.a /work/ssh/install/lib/libz.a
+ 1629  date
+ 1630  cd ..
+ 1631  ls
+ 1632  cd openssh
+ 1633  ls
+ 1634  readelf -h ./ssh
+ 1635  cd ..
+ 1636  ls
+ 1637  cp openssh openssh_static
+ 1638  cp -r  openssh openssh_static
+ 1639  ls
+ 1640  cd openssh_static/
+ 1641  ls
+ 1642  ./configure --host=arm-linux --with-libs --with-zlib=/work/ssh/install --with-ssl-dir=/home/work/ssh/install/openssl_1_0_1_stable/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar --prefix=/home/work/ssh/install/openssh CFLAGS=-static
+ 1643  make -j
+ 1644  vi Makefile
+ 1645  ./configure --host=arm-linux --with-libs --with-zlib=/work/ssh/install --with-ssl-dir=/home/work/ssh/install/openssl_1_0_1_stable --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar --prefix=/home/work/ssh/install/openssh CFLAGS=-static -g
+ 1646  ./configure --host=arm-linux --with-libs --with-zlib=/work/ssh/install --with-ssl-dir=/home/work/ssh/install/openssl_1_0_1_stable --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar --prefix=/home/work/ssh/install/openssh CFLAGS="-static -g"
+ 1647  make clean
+ 1648  make -j
+ 1649  make install
+ 1650  ls
+ 1651  ls -la | grep ssh
+ 1652  ls -lah | grep ssh
+ 1653  ls -lah | grep ssh$
+ 1654  cd ..
+ 1655  ls
+ 1656  df -d 1 -lh
+ 1657  du -d 1  -lh
+ 1658  cd openssh_static/
+ 1659  ls
+ 1660  ls -lah | grep ssh$
+ 1661  ps aux | grep sshd
+ 1662  ps aux | grep ssh
+ 1663  ifconfig
+ 1664  service  ssh satrt 
+ 1665  service  satrt ssh 
+ 1666  service  satrt sshd 
+ 1667  history | grep ssh
+ 1668  ps aux | grep service
+ 1669  ps aux | grep ser
+ 1670  history | grep ser
+ 1671  service ssh  start
+ 1672  cd /etc/
+ 1673  sl
+ 1674  ls
+ 1675  vi rc.local
+ 1676  ifconfig
+ 1677  ps aux  | grep ssh
+ 1678  ls
+ 1679  cat rc.locla
+ 1680  cat rc.local 
+ 1681  ;s
+ 1682  ls
+ 1683  ls | grep ^rc
+ 1684  cd rc5.d/
+ 1685  ls
+ 1686  ls -la
+ 1687  cd ../
+ 1688  ls
+ 1689  cd init.d/
+ 1690  ls
+ 1691  reboot
+ 1692  adb devices
+ 1693  apt
+ 1694  apt list
+ 1695  apt update
+ 1696  ping www.baidu.com
+ 1697  apt update
+ 1698  ifconfig
+ 1699  ping www.baidu.com
+ 1700  adb
+ 1701  apt install adb
+ 1702  adb devices
+ 1703  adb shell
+ 1704  lsusb
+ 1705  adb shell 
+ 1706  lsusb
+ 1707  adb shell 
+ 1708  adb disconnect all
+ 1709  adb disconnectall
+ 1710  adb kill-server
+ 1711  adb shell
+ 1712  adb kill-server
+ 1713  adb shell
+ 1714  reboot
+ 1715  adb shell
+ 1716  adb devices
+ 1717  adb shell
+ 1718  adb
+ 1719  adb shell
+ 1720  adb kill-server
+ 1721  adb shell
+ 1722  ls
+ 1723  lsusb
+ 1724  adb shell
+ 1725  cd 
+ 1726  ls
+ 1727  cd /work
+ 1728  ls
+ 1729  arm-openwrt-linux-gcc -v
+ 1730  ssh
+ 1731  ls
+ 1732  cd /
+ 1733  ls
+ 1734  cd tmp
+ 1735  ls
+ 1736  cd /work
+ 1737  ls
+ 1738  cd ssh
+ 1739  ls
+ 1740  cd source/
+ 1741  ls
+ 1742  cd openssh
+ 1743  ls
+ 1744  arm-openwrt-linux-gdb -c /tmp/core-ssh-685-249 ssh
+ 1745  cat ~/.bashrc
+ 1746  uname -a
+ 1747  cd ..
+ 1748  ls
+ 1749  cd openssl
+ 1750  ls
+ 1751  git re -v
+ 1752  git br -av
+ 1753  cd ..
+ 1754  ls
+ 1755  cd /Desktop
+ 1756  cd /
+ 1757  ls
+ 1758  cd 
+ 1759  ls
+ 1760  cd Desktop
+ 1761  ls
+ 1762  cd Tina/
+ 1763  ls
+ 1764  wget https://archive.openwrt.org/snapshots/trunk/sunxi/generic/OpenWrt-Toolchain-sunxi_gcc-5.3.0_musl-1.1.16_eabi.Linux-x86_64.tar.bz2
+ 1765  ls
+ 1766  tar jxvf OpenWrt-Toolchain-sunxi_gcc-5.3.0_musl-1.1.16_eabi.Linux-x86_64.tar.bz2 
+ 1767  ls
+ 1768  cd OpenWrt-Toolchain-sunxi_gcc-5.3.0_musl-1.1.16_eabi.Linux-x86_64/
+ 1769  ls
+ 1770  cd toolchain-arm_cortex-a8+vfpv3_gcc-5.3.0_musl-1.1.16_eabi/
+ 1771  ls
+ 1772  cd bin
+ 1773  ls
+ 1774  ls -la
+ 1775  pwd
+ 1776  vi ~/.bashrc 
+ 1777  source ~/.bashrc
+ 1778  arm-openwrt-linux-gcc -v
+ 1779  cd /
+ 1780  cd work
+ 1781  ls
+ 1782  cd ssh
+ 1783  ls
+ 1784  cd source/
+ 1785  ls
+ 1786  cd zlib-1.2.11
+ 1787  ls
+ 1788  vi Makefile
+ 1789  make 
+ 1790  make clean
+ 1791  make -j
+ 1792  make install
+ 1793  cd ..
+ 1794  ls
+ 1795  cd openssl
+ 1796  ls
+ 1797  make clean
+ 1798  make -j
+ 1799  make install
+ 1800  cd ..
+ 1801  ls
+ 1802  cd openssh_static/
+ 1803  ls
+ 1804  make clean
+ 1805  ./configure --host=arm-linux --with-libs --with-zlib=/work/alpha/lib --with-ssl-dir=/home/work/ssh/install/openssl_1_0_1_stable/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar --prefix=/home/work/ssh/install/openssh
+ 1806  ls /work/alpha/lib
+ 1807  ls /work/alpha/
+ 1808  ./configure --host=arm-linux --with-libs --with-zlib=/work/alpha/ --with-ssl-dir=/home/work/ssh/install/openssl_1_0_1_stable/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar --prefix=/home/work/ssh/install/openssh
+ 1809  cd ..
+ 1810  ls
+ 1811  zlib-1.2.11
+ 1812  cd zlib-1.2.11
+ 1813  ls
+ 1814* 
+ 1815  cd ..
+ 1816* 
+ 1817  cd openssh_static/
+ 1818  vi ../zlib-1.2.11/Makefile
+ 1819  ls /work/alpha/
+ 1820  ./configure --host=arm-linux --with-libs --with-zlib=/work/alpha --with-ssl-dir=/home/work/ssh/install/openssl_1_0_1_stable/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar --prefix=/home/work/ssh/install/openssh
+ 1821  ./configure --host=arm-linux --with-libs --with-zlib=/work/alpha/ --with-ssl-dir=/home/work/ssh/install/openssl_1_0_1_stable/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar --prefix=/home/work/ssh/install/openssh
+ 1822  ls /work/alpha/
+ 1823  ls /work/alpha/include/
+ 1824  ls /home/work/ssh/install/openssl_1_0_1_stable/
+ 1825  ls /home/work/ssh/install/openssl_1_0_1_stable/include/
+ 1826  ls /home/work/ssh/install/openssl_1_0_1_stable/include/openssl/
+ 1827  locate opensslv.h
+ 1828  ls /home/work/ssh/install/openssl_1_0_1_stable/
+ 1829  cat ~/.bashrc
+ 1830  ls 
+ 1831  ls /root/Desktop/Tina/OpenWrt-Toolchain-sunxi_gcc-5.3.0_musl-1.1.16_eabi.Linux-x86_64/toolchain-arm_cortex-a8+vfpv3_gcc-5.3.0_musl-1.1.16_eabi/
+ 1832  ls /root/Desktop/Tina/OpenWrt-Toolchain-sunxi_gcc-5.3.0_musl-1.1.16_eabi.Linux-x86_64/toolchain-arm_cortex-a8+vfpv3_gcc-5.3.0_musl-1.1.16_eabi/include/
+ 1833  ls /home/work/ssh/install/openssl_1_0_1_stable/
+ 1834  cp -r /home/work/ssh/install/openssl_1_0_1_stable/include/ /root/Desktop/Tina/OpenWrt-Toolchain-sunxi_gcc-5.3.0_musl-1.1.16_eabi.Linux-x86_64/toolchain-arm_cortex-a8+vfpv3_gcc-5.3.0_musl-1.1.16_eabi/
+ 1835  ./configure --host=arm-linux --with-libs --with-zlib=/work/alpha/ --with-ssl-dir=/home/work/ssh/install/openssl_1_0_1_stable/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar --prefix=/home/work/ssh/install/openssh
+ 1836  vi config.log
+ 1837  ls
+ 1838  ls | grep cache
+ 1839  rm autom4te.cache/
+ 1840  rm -rf autom4te.cache/
+ 1841  automake 
+ 1842  autoscan
+ 1843  aclocal
+ 1844  autoconf
+ 1845  automake -a
+ 1846  ./configure --host=arm-linux --with-libs --with-zlib=/work/alpha/ --with-ssl-dir=/home/work/ssh/install/openssl_1_0_1_stable/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar --prefix=/home/work/ssh/install/openssh
+ 1847  cp -r /home/work/ssh/install/openssl_1_0_1_stable/lib/ /root/Desktop/Tina/OpenWrt-Toolchain-sunxi_gcc-5.3.0_musl-1.1.16_eabi.Linux-x86_64/toolchain-arm_cortex-a8+vfpv3_gcc-5.3.0_musl-1.1.16_eabi/
+ 1848  ./configure --host=arm-linux --with-libs --with-zlib=/work/alpha/ --with-ssl-dir=/home/work/ssh/install/openssl_1_0_1_stable/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar --prefix=/home/work/ssh/install/openssh
+ 1849  ls /home/work/ssh/install/openssl_1_0_1_stable/lib/
+ 1850  ls  /root/Desktop/Tina/OpenWrt-Toolchain-sunxi_gcc-5.3.0_musl-1.1.16_eabi.Linux-x86_64/toolchain-arm_cortex-a8+vfpv3_gcc-5.3.0_musl-1.1.16_eabi/
+ 1851  ls  /root/Desktop/Tina/OpenWrt-Toolchain-sunxi_gcc-5.3.0_musl-1.1.16_eabi.Linux-x86_64/toolchain-arm_cortex-a8+vfpv3_gcc-5.3.0_musl-1.1.16_eabi/lib
+ 1852  ls -la  /root/Desktop/Tina/OpenWrt-Toolchain-sunxi_gcc-5.3.0_musl-1.1.16_eabi.Linux-x86_64/toolchain-arm_cortex-a8+vfpv3_gcc-5.3.0_musl-1.1.16_eabi/lib
+ 1853  vi   /root/Desktop/Tina/OpenWrt-Toolchain-sunxi_gcc-5.3.0_musl-1.1.16_eabi.Linux-x86_64/toolchain-arm_cortex-a8+vfpv3_gcc-5.3.0_musl-1.1.16_eabi/lib/libitm.a
+ 1854  make -j
+ 1855  ls
+ 1856  ls | grep ssh
+ 1857  ls | grep ssh￥
+ 1858  ls | grep ssh$
+ 1859  make -j1
+ 1860  vi Makefile
+ 1861  make -j1
+ 1862  arm-openwrt-linux-gcc -fPIC -o ssh ssh.o readconf.o clientloop.o sshtty.o sshconnect.o sshconnect2.o mux.o -L. -Lopenbsd-compat/ -L/home/work/ssh/install/openssl_1_0_1_stable/lib -L/work/ssh/install/lib  -Wl,-z,retpolineplt -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-strong -pie  -lssh -lopenbsd-compat  -lcrypto -lz  -lcrypt 
+ 1863  cd ..
+ 1864  ls
+ 1865  cd openssl
+ 1866  ls
+ 1867  vi Ma
+ 1868  vi Makefile
+ 1869  make 
+ 1870  make install
+ 1871  cd ..
+ 1872  ls
+ 1873  cd openssh_static/
+ 1874  ls
+ 1875  make -j1
+ 1876  make clean
+ 1877  make
+ 1878  vi Makefile
+ 1879  make 
+ 1880  arm-openwrt-linux-gcc -o ssh ssh.o readconf.o clientloop.o sshtty.o sshconnect.o sshconnect2.o mux.o -L. -Lopenbsd-compat/ -L/home/work/ssh/install/openssl_1_0_1_stable/lib -L/work/ssh/install/lib  -Wl,-z,retpolineplt -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-strong -pie  -lssh -lopenbsd-compat  -lcrypto -lz  -lcrypt -fPIE
+ 1881  arm-openwrt-linux-gcc -o ssh ssh.o readconf.o clientloop.o sshtty.o sshconnect.o sshconnect2.o mux.o -L. -Lopenbsd-compat/ -L/home/work/ssh/install/openssl_1_0_1_stable/lib -L/work/ssh/install/lib  -Wl,-z,retpolineplt -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-strong -pie  -lssh -lopenbsd-compat  -lcrypto -lz  -lcrypt -fPIC
+ 1882  arm-openwrt-linux-gcc -o ssh ssh.o readconf.o clientloop.o sshtty.o sshconnect.o sshconnect2.o mux.o -L. -Lopenbsd-compat/ -L/home/work/ssh/install/openssl_1_0_1_stable/lib -L/work/ssh/install/lib  -Wl,-z,retpolineplt -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-strong -pie  -lssh -lopenbsd-compat  -lcrypto -lz  -lcrypt -fPIC -static
+ 1883  arm-openwrt-linux-gcc -shared -fPIC -o ssh ssh.o readconf.o clientloop.o sshtty.o sshconnect.o sshconnect2.o mux.o -L. -Lopenbsd-compat/ -L/home/work/ssh/install/openssl_1_0_1_stable/lib -L/work/ssh/install/lib  -Wl,-z,retpolineplt -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-strong -pie  -lssh -lopenbsd-compat  -lcrypto -lz  -lcrypt
+ 1884  ls
+ 1885  vi Makefile
+ 1886  make 
+ 1887  make clean
+ 1888  mkae 
+ 1889  mkae
+ 1890  make
+ 1891  ls /home/work/ssh/install/openssl_1_0_1_stable/lib/
+ 1892  cd ..
+ 1893  ls
+ 1894  cd openssl
+ 1895  ls
+ 1896  vi Ma
+ 1897  vi Makefile
+ 1898  make 
+ 1899  make clean
+ 1900  make -j
+ 1901  make install
+ 1902  ls
+ 1903  vi Makefile
+ 1904  ls
+ 1905  ls /home/work/ssh/install/openssl_1_0_1_stable/lib/
+ 1906  ls -la  /home/work/ssh/install/openssl_1_0_1_stable/lib/
+ 1907  vi Makefile
+ 1908  ls -la  /home/work/ssh/install/openssl_1_0_1_stable/
+ 1909  ls -la  /home/work/ssh/install/openssl_1_0_1_stable/lib
+ 1910  ls -la  /home/work/ssh/install/openssl_1_0_1_stable/
+ 1911  ls -la  /home/work/ssh/install/openssl_1_0_1_stable/ssl
+ 1912  ls -la  /home/work/ssh/install/openssl_1_0_1_stable
+ 1913  ls -la  /home/work/ssh/install/openssl_1_0_1_stable/bin
+ 1914  vi Makefile
+ 1915  make -j
+ 1916  make install
+ 1917  ls -la  /home/work/ssh/install/openssl_1_0_1_stable/bin
+ 1918  ls -la  /home/work/ssh/install/openssl_1_0_1_stable/lib/
+ 1919  cd ..
+ 1920  ls
+ 1921  cd openssh
+ 1922  ls
+ 1923  make -j
+ 1924  make clean
+ 1925  make 
+ 1926  ls
+ 1927  ./ssh
+ 1928  md5sum ssh
+ 1929  adb shell
+ 1930  devices
+ 1931  adb devices
+ 1932  adb shell
+ 1933  ls
+ 1934  adb push ./scp
+ 1935  adb pull ./scp 
+ 1936  adb pull  / ./scp 
+ 1937  adb pull  /scp ./scp 
+ 1938  adb pull  ./scp  /tmp/
+ 1939  adb pull  ./scp  /tmp/scp
+ 1940  adb pull    /tmp/scp ./scp
+ 1941  adb push     /tmp/scp ./scp
+ 1942  adb push   ./scp  /mnt/SDCARD/0517/
+ 1943  adb push   ./ssh-keygen  /mnt/SDCARD/0517/
+ 1944  ls
+ 1945  adb push   ./ssh-keyscan  /mnt/SDCARD/0517/
+ 1946  adb push   ./ssh-keysign  /mnt/SDCARD/0517/
+ 1947  adb push   ./ssh-pkcs11-helper  /mnt/SDCARD/0517/
+ 1948  adb push   ./sshd  /mnt/SDCARD/0517/
+ 1949  adb push   ./sftp  /mnt/SDCARD/0517/
+ 1950  adb push   ./sftp-server  /mnt/SDCARD/0517/
+ 1951  adb push   ./ssh-agent  /mnt/SDCARD/0517/
+ 1952  adb push   ./ssh-add  /mnt/SDCARD/0517/
+ 1953  adb shell
+ 1954  ls
+ 1955  vi Makefile
+ 1956  make 
+ 1957  make clean
+ 1958  make -j
+ 1959  mkdir -p /mnt/SDCARD/local/bin/
+ 1960  make install
+ 1961  mkdir -p /mnt/SDCARD/local/
+ 1962  make install 
+ 1963  ls /mnt/SDCARD/local/bin
+ 1964  ls /mnt/SDCARD/local/bin/
+ 1965* 
+ 1966  rm -rf /mnt/SDCARD/local/
+ 1967  make install 
+ 1968  vi Makefile
+ 1969  make 
+ 1970  vi Makefile
+ 1971  make clean
+ 1972  make -j
+ 1973  make install
+ 1974  mkdir -p /mnt/SDCARD/local/bin/ 
+ 1975  make install
+ 1976  vi Makefile
+ 1977  make clean
+ 1978  make -j
+ 1979  make install
+ 1980  ls
+ 1981  vi fixpaths 
+ 1982  vi install-sh 
+ 1983  ls
+ 1984  vi Makefile
+ 1985  cat Makefile
+ 1986  ls
+ 1987  cat ssh_config
+ 1988  adb devices
+ 1989  adb push ssh scp ssh-add ssh-agent ssh-keygen ssh-keyscan sshd  ssh-keysign  ssh-pkcs11-helper  sftp  sftp-server ssh_config /mnt/SDCARD/local/bin/
+ 1990  adb shell 
+ 1991  adb push ssh scp ssh-add ssh-agent ssh-keygen ssh-keyscan sshd  ssh-keysign  ssh-pkcs11-helper  sftp  sftp-server ssh_config /mnt/SDCARD/local/bin/
+ 1992  adb shell
+ 1993  history  > /tmp/shell_history
