@@ -1,4 +1,6 @@
-# 1. 编译busybox telent
+
+# 1. Build busybox telent
+
 - __OpenWrt toolchain__:
   - [openwrt-sdk-sunxi-cortexa7_gcc-7.3.0_musl_eabi.Linux-x86_64.tar.xz](https://downloads.lede-project.org/snapshots/targets/sunxi/cortexa7/openwrt-sdk-sunxi-cortexa7_gcc-7.3.0_musl_eabi.Linux-x86_64.tar.xz)
 - __busybox__:
@@ -7,14 +9,10 @@
 - __set-up tftp server__:
   - [douban nodes](https://www.douban.com/note/668318511/)
 
+# 2. Build openssh
 
 
-
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-# 2. 编译ssh
-
-
-## OPENSSL lib build
+## openssl
 ```
 
 
@@ -22,9 +20,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
 
-- openssl 版本:  
-[x] ~~master    bc624bd955 v3_purp.c: add locking to x509v3_cache_extensions() 宏定义不匹配😂~~   
-[v] OpenSSL_1_0_1-stable    4675a56a3c apps/speed.c: Fix crash when config loading fails
+- Select properly openssl version:  
+[x] ~~master    bc624bd955 v3_purp.c: add locking to x509v3_cache_extensions() 宏定义不匹配~~   
+[v] OpenSSL_1_0_1-stable    4675a56a3c apps/speed.c: Fix crash when config loading fails 👍
 
 - 编译openssl的可用命令 添加no-async以消除ld时的 ./libcrypto.so: undefined reference tosetcontext'错误
 ```
@@ -77,3 +75,36 @@ CC=arm-openwrt-linux-gcc  AR=arm-openwrt-linux-ar RANLIB=arm-openwrt-linux-ranli
 ./configure --host=arm-linux --with-libs --with-zlib=/work/ssh/install --with-ssl-dir=/home/work/ssh/install/openssl_1_0_1_stable/ --disable-etc-default-login CC=arm-openwrt-linux-gcc AR=arm-openwrt-linux-ar --prefix=/home/work/ssh/install/openssh
 ```
 
+# 3. Hardware infomation
+- kernel 
+```Linux TinaLinux 3.4.39 #159 SMP PREEMPT Wed Feb 28 02:34:48 UTC 2018 armv7l GNU/Linux```
+- cpuinfo:
+```
+root@TinaLinux:/# uname -a
+Linux TinaLinux 3.4.39 #159 SMP PREEMPT Wed Feb 28 02:34:48 UTC 2018 armv7l GNU/Linux
+root@TinaLinux:/# cat /proc/cpuinfo
+Processor	: ARMv7 Processor rev 5 (v7l)
+processor	: 0
+BogoMIPS	: 5714.28
+
+processor	: 1
+BogoMIPS	: 5714.28
+
+processor	: 2
+BogoMIPS	: 5714.28
+
+processor	: 3
+BogoMIPS	: 5714.28
+
+Features	: swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xc07
+CPU revision	: 5
+
+Hardware	: sun8i
+Revision	: 0000
+Serial		: 86409b17a8276c118000
+Chipid		: 6c1180009b17a827864091080461872a
+```
